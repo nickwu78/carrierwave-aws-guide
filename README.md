@@ -1,9 +1,14 @@
-# carrierwave-aws-guide
+# Carrierwave AWS S3 Guide
+### A (mostly) pain-free guide to using AWS S3 to store images for your rails app.
 Upload your 📷 to the ☁️
 
 This guide will walk you through the process of setting up the [carrierwave gem](https://github.com/carrierwaveuploader/carrierwave) along with [fog](https://github.com/fog/fog) to enable image uploading to Amazon S3 for your Ruby on Rails projects.
 
 This guide assumes knowledge of Ruby on Rails gems, installation and usage. I am using the example of adding images to a room listing for a apartment-sharing service, you should, of course, customise it to your needs.
+
+### Why AWS?
+
+To be written
 
 Add the gems into your Gemfile:
 
