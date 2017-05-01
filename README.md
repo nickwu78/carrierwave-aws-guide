@@ -78,7 +78,7 @@ To implement AWS:
 
 First sign up for [Amazon Web Services](https://aws.amazon.com/) - there should be an option for a free trial.
 
-Then, navigate to the [S3 console](https://console.aws.amazon.com/s3), and create a bucket in your region of choice, and use the [security credentials page](https://console.aws.amazon.com/iam/home?#/security_credential) to generate your access keys. Note down both the access key ID and the secret key!
+Then, navigate to the [S3 console](https://console.aws.amazon.com/s3), and create a bucket in your region of choice, and use the [security credentials page](https://console.aws.amazon.com/iam/home?#/security_credential) to generate your access keys. Note down both the access key ID and the secret key! Finally, make sure you have "AmazonS3FullAccess" and "AmazonS3ReadOnlyAccess" in your policy permissions.
 
 create a carrier_wave.rb file in config/initializers/carrier_wave.rb
 
